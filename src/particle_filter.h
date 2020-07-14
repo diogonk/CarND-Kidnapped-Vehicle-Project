@@ -107,7 +107,9 @@ class ParticleFilter {
    */
   std::string getAssociations(Particle best);
   std::string getSenseCoord(Particle best, std::string coord);
-
+	std::string getSenseX(Particle best);
+	std::string getSenseY(Particle best);
+  
   // Set of current particles
   std::vector<Particle> particles;
 
